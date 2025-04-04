@@ -10,6 +10,7 @@ import {
 
 import Login from "./components/login";
 import SignUp from "./components/register";
+import ForgotPassword from "./components/forgotpassword";
 
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -37,6 +38,7 @@ function App() {
               <Route path="/login" element={<Login />} />
               <Route path="/register" element={<SignUp />} />
               <Route path="/profile" element={<Profile />} />
+              <Route path="/forgotpassword" element={<ForgotPassword />} />
             </Routes>
             <ToastContainer />
           </div>
